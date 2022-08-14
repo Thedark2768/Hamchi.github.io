@@ -72,7 +72,8 @@ header{
 }
 
 .navegacion{
-	width: cover;
+	width: cover;
+
 }
 
 .navegacion ul{
@@ -80,9 +81,8 @@ header{
 }
 
 .menu > li{
-	position: absolute;
+	position: relative;
 	display: inline-block;
- left: 1px;
  background-color: darkred;
  opacity: 80%;
 }
@@ -104,7 +104,7 @@ header{
 /* Submenu*/
 
 .submenu{
-	position: absolute;
+	position: relative;
 	background: #333333;
 	width: cover;
 	visibility: hidden;
@@ -123,4 +123,8 @@ header{
 .menu li:hover .submenu{
 	visibility: visible;
 	opacity: 1;
+}
+
+.trailer{
+    boder: 5px solid white;
 }
