@@ -67,64 +67,15 @@ h3{
     transform: translateY(0);
   }
 }
-header{
-	width: 100%;
-}
-
-.navegacion{
-	width: cover;
-
-}
-
-.navegacion ul{
-	list-style: none;
-}
-
-.menu > li{
-	position: relative;
-	display: inline-block;
- background-color: darkred;
- opacity: 80%;
-}
-
-.menu > li > a{
-	display: block;
-	padding: 10px;
- font-size: 25px;
-	color: #fff;
-	font-family: 'Open sans';
-	text-decoration: none;
-}
-
-.menu li a:hover{
-	color: orange;
-	transition: all .3s;
-}
-
-/* Submenu*/
-
-.submenu{
-	position: relative;
-	background: #333333;
-	width: cover;
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity 1.5s;
-}
-
-.submenu li a{
-	display: block;
-	padding: 15px;
-	color: #fff;
-	font-family: 'Open sans';
-	text-decoration: none;
-}
-
-.menu li:hover .submenu{
-	visibility: visible;
-	opacity: 1;
-}
-
-.trailer{
-    boder: 5px solid white;
-}
+<div class="menu">
+      <img src="logo.png" alt="">
+      <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre mi</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+      </nav>
+    </div>
