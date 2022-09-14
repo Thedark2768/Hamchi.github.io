@@ -67,3 +67,25 @@ h3{
     transform: translateY(0);
   }
 }
+
+header{
+  background: gray;
+  width: 100%;
+  clear: both;
+  content:'';
+  display; table;
+.menu{
+  width: 900px;
+  margin: 0 auto:
+}
+  
+ nav{
+   float: right;
+}
+ 
+  nav ul li{
+    list-style: none;
+    margin-left 75px;
+    padding: 25px;
+    float: left;
+}
